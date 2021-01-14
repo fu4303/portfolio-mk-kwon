@@ -1,0 +1,54 @@
+/* Skills */
+
+.skills .title {
+	text-align: center;
+}
+
+.skill-button-container {
+	margin: 1.5em 0;
+	text-align: center;
+}
+
+.skillbutton {
+	box-shadow: none;
+	outline: none
+}
+
+.skillbutton-active {
+	box-shadow: inset 0 0 0 1px _palette(accent);
+	color: _palette(accent) !important;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:30px;
+	height:35px;
+	border-radius:30px;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	text-align: center;
+	width: 100%;
+	padding: 13px 13px;
+	top:0;
+	left:0;
+	font-weight:bold;
+	font-size:15px;
+	color:#fff;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+}
