@@ -1,0 +1,2 @@
+**importing fontawesome icons for React
+https://fontawesome.com/how-to-use/javascript-api/setup/importing-icons
