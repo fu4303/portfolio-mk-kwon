@@ -9,13 +9,13 @@ const validateText = (text) => {
 };
 
 const message = [
-  'MIN.KYUNG.KWON.DEV',
+  'info',
 ];
 
 const EmailLink = () => (
   <a href={validateText(message) ? `mailto:${message}@gmail.com` : ''}>
     <span>{message}</span>
-    <span>@gmail.com</span>
+    <span>@minkyungkwon.com</span>
   </a>
 );
 

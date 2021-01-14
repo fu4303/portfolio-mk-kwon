@@ -29,6 +29,18 @@ const data = [
       + 'Users can also search car/motorbike info by inputting the VIN and find recalls for a specific vehicle.',
   },
   {
+    title: 'Min Kyung Kwon Art',
+    subtitle: 'Min Kyung Kwon Art Portfolio & Online Store Site',
+    link: 'https://minkyungkwon.com/',
+    image: '/images/projects/MinKyungKwonArt.png',
+    date: '2017-06-02',
+    technologies: 'Wordpress Themes & Plugins, WooCommerce, Payment System',
+    desc:
+      'Min Kyung Kwon\'s Art Website which showcases her art works, current and/or past exhibition info, '
+      + 'and the store that customers can use cart and Paypal, Stripe(for credit card) to use a secure payment system.  '
+      + 'It uses Google Analytics and Google Tags to track and get reports about the site\'s records. ',
+  },
+  {
     title: 'AccuZone Weather',
     subtitle: 'The weather forecast app',
     link: 'https://mk-kwon.github.io/AccuZone-Weather/',
