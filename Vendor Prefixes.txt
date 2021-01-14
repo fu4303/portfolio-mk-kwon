@@ -1,0 +1,26 @@
+https://dzone.com/articles/understanding-css-vendor-prefixes#:~:text=About%20Vendor%20Prefixes&text=Simply%20put%2C%20vendor%20prefixes%20are,of%20new%20features%20started%20appearing.
+
+* About Vendor Prefixes
+
+Let's answer the question: What are vendor prefixes? Simply put, vendor prefixes are a way for your browser to support new CSS features 
+before they become fully supported in all browsers.
+
+When CSS3 became popular, all sorts of new features started appearing. 
+Unfortunately, not all of them were supported across all browsers. 
+Vendor prefixes helped developers use those new features, and have them supported instantly without having to wait 
+for each of them to become available for every browser.
+
+Vendor prefixes are not a hack, and you should feel free to use them.
+
+A good way to check which property is available to use without a vendor prefix is by checking the CanIUse service. 
+There you can see which browser currently supports which property.
+
+
+
+* The Prefixes
+Major browsers use the following prefixes:
+
+-webkit- Chrome, Safari, newer versions of Opera, almost all iOS browsers.
+-moz- Firefox.
+-o- Old versions of Opera.
+-ms- Microsoft Edge and Internet Explorer.
