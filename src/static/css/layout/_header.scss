@@ -187,7 +187,7 @@
 
 	/* General sidebar styles */
 	.bm-menu {
-	  background: _palette(bg);
+	  background: _palette(bg-alt);
 	  padding: 2.5em 1.5em 0;
 	  font-size: 1.15em;
 	}
@@ -196,7 +196,7 @@
 	.bm-item-list {
 	  color: _palette(fg-bold);
 	  padding: 0.8em;
-		font-family: "Raleway", Helvetica, sans-serif;
+	  font-family: "Raleway", Helvetica, sans-serif;
 	}
 
 	#header .index-link {
