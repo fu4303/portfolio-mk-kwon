@@ -13,6 +13,7 @@ const message = [
 ];
 
 const EmailLink = () => (
+  
   <a href={validateText(message) ? `mailto:${message}@gmail.com` : ''}>
     <span>{message}</span>
     <span>@minkyungkwon.com</span>
